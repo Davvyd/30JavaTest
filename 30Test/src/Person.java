@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-/**
- * Created by Admin on 31-Jan-18.
- */
 public class Person {
     private String firstName;
     private String surname;

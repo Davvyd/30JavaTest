@@ -3,14 +3,10 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-/**
- * Created by Admin on 31-Jan-18.
- */
 public class SocialNetwork {
     private final String fileName = "data.json";
 
@@ -98,7 +94,8 @@ public class SocialNetwork {
 
         @Override
         public String toString() {
-            return person+") friends "+ Arrays.toString(friends) +" "+" fof "+friendOfFriends+" suggested: "+suggested;
+            return person+") friends "+ Arrays.toString(friends) +" "+" fof "+
+                    Arrays.toString(friendOfFriends)+" suggested: "+Arrays.toString(suggested);
         }
     }
 
