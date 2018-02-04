@@ -18,7 +18,7 @@ public class SocialNetwork {
 
     public static SocialNetwork instance=null;
 
-    public SocialNetwork(){
+    private SocialNetwork(){
         JSONParser parser=new JSONParser();
         try {
             JSONArray json = (JSONArray) parser.parse(new FileReader(fileName));
